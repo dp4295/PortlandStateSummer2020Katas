@@ -20,4 +20,9 @@ public class KataTest
     assertThat(Kata.romanNumeral(1),equalTo(null));
   }
 
+  @Test
+  public void Is1isV()
+  {
+    assertThat(Kata.romanNumeral(5),equalTo("V"));
+  }
 }
