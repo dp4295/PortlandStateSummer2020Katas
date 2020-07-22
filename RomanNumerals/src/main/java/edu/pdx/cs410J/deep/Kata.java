@@ -7,10 +7,14 @@ package edu.pdx.cs410J.deep;
  * class (and its tests).
  */
 public class Kata {
-                                                                                    
+
 
   public static void main(String[] args) {
-    System.err.println("Missing command line arguments");
+
+  //  System.err.println("Missing command line arguments");
+
+    System.out.println(romanNumeral(20));
+
     System.exit(1);
   }
 
@@ -43,7 +47,7 @@ public class Kata {
           if(C_num == 4){
             res+= "CD";
           }else{
-            
+
           }
         }
       }
@@ -59,8 +63,13 @@ public class Kata {
     int V_num = i % 5;
     if(V_num != 0) i = i - 5*V_num;
 
-    if(i == 0){
-      return
-    }
+//    if(i == 0){
+//      return
+//    }
+   return res;
   }
+
+
+
+
 }
